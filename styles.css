@@ -5,9 +5,10 @@
     border-style: solid;
     border-width: 0px;
     margin-right: 12px;
-    font-family: Roboto, Arial, sans-serif;
+    font-family: 'Gilroy-Light', sans-serif;
     box-shadow: 2px 2px 5px #606060;
     border-radius: 5px;
+    padding-bottom: 15px;
 }
 
 .cat-thumbnail{
@@ -25,40 +26,95 @@
     font-weight: bold;
     font-size: 50px;
     vertical-align: mid;
-    font-family: "Cute Font", sans-serif;
+    font-family: 'Gilroy-Bold', sans-serif;
     margin-bottom: 0px;
     margin-top: 0px;
 }
 
 .adopt-cat-button{
-    background-color: white;
-    border-color: rgb(3, 3, 211);
-    color: rgb(3, 3, 211);
+    background-color: #9df59e;
+    border-color: white;
+    color: black;
+    font-family: 'Gilroy-Bold', sans-serif;
     border-radius: 20px; /*rounded corners*/
     border-style: solid;
     border-width: 1px;
     height: 36px;
     cursor: pointer;  
     margin-right: 8px;  
-    transition: background-color 0.15s, color 0.15s;
+    transition: opacity 0.15s;
     vertical-align:middle;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .adopt-cat-button:hover{
-    background-color: rgb(3, 3, 211);
-    color: white;
+    opacity: 0.7;
 }
 
 .adopt-cat-button:active{
-    opacity: 0.7;
+    opacity: 0.3;
 }
 
 .cat-name{
     font-weight: bold;
     font-size: 16px;
+    font-family: 'Gilroy-Heavy', sans-serif;
+    padding-left: 7px;
 }
 
 .car-info{
     color: #606060;
     font-size: 12px;
+}
+
+.upper-row{
+    display: inline-block;
+    width: 100%;
+    length: 100%;
+    vertical-align: center;
+    margin-bottom: 30px;
+}
+
+.donate-button{
+    background-color: rgb(248,155,88,255);
+    font-family: 'Gilroy-Bold', sans-serif;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: white;
+    font-size: 15px;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: opacity 0.15s;
+}
+
+.donate-button:hover{
+    opacity: 0.7;
+}
+
+.donate-button:active{
+    opacity: 0.3;
+}
+
+.upper-button{
+    background-color: white;
+    border-color: white;
+    border-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Gilroy-Bold', sans-serif;
+}
+
+.logo{
+    vertical-align: middle;
+    width: 200px;
+    margin-right: 620px;
+    margin-left: 25px;
 }
