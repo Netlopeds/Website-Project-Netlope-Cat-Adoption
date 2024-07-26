@@ -71,11 +71,10 @@
 }
 
 .upper-row{
-    display: inline-block;
-    width: 100%;
-    length: 100%;
+    display: block;
     vertical-align: center;
     margin-bottom: 30px;
+    zoom: normal;
 }
 
 .donate-button{
@@ -117,4 +116,46 @@
     width: 200px;
     margin-right: 620px;
     margin-left: 25px;
+}
+
+.left-title{
+    width: 100%;
+    display: inline-block;
+    vertical-align: left;
+}
+
+.title-text{
+    font-size: 100px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 50%;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+.dividing-thing{
+    width: 100%;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.title-visit{
+    font-size: 20px;
+    vertical-align: mid;
+    font-family: 'Gilroy-Heavy', sans-serif;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 50px;
+    color:#cdcdcd;
+    display:inline-block;
+}
+
+.under-title{
+    font-size: 15px;
+    vertical-align: mid;
+    color:black;
+    margin-left: 50px;
+    font-family: 'Gilroy-Regular', sans-serif;  
+    display:inline-block;
 }
