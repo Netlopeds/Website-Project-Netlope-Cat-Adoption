@@ -43,11 +43,11 @@
     cursor: pointer;  
     margin-right: 8px;  
     transition: opacity 0.15s;
-    vertical-align:middle;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+    vertical-align: bottom;
 }
 
 .adopt-cat-button:hover{
@@ -60,14 +60,15 @@
 
 .cat-name{
     font-weight: bold;
-    font-size: 16px;
+    font-size: 18px;
     font-family: 'Gilroy-Heavy', sans-serif;
     padding-left: 7px;
 }
 
 .car-info{
     color: #606060;
-    font-size: 12px;
+    font-size: 15px;
+    padding-left: 10px;
 }
 
 .upper-row{
@@ -209,9 +210,20 @@
 .under-row{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    margin-top: 20px;
+    justify-items: center;
 }
 
 .left-under,.right-under{
 
+}
+
+.cat-content-block{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 35px;
+    padding-right: 30px;
+    column-gap: 5px;
+    row-gap: 30px;
 }
